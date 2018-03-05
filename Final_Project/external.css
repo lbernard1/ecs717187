@@ -1,0 +1,47 @@
+html, body, .jumbotron{ 
+  background: url(https://static.vecteezy.com/system/resources/previews/000/087/032/non_2x/seamless-floral-background-vector.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2 {
+    text-align: center;
+}
+.jumbotron{
+    background-color:transparent;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    border: 2px solid #555;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 97px 10px;
+    text-decoration: none;
+    background-color: #fff
+}
+li {
+    text-align: center;
+    border-bottom: 2px solid #555;
+}
+li .active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #000;
+}
